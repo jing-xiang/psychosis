@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/psychosis.unity
     guid: f0e20a23417baf9449f9c880b0eca3d4
+  - enabled: 1
+    path: Assets/Scenes/darkforest.unity
+    guid: d6aa79e27d8dcda408f9ecd347b25b36
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b1446f57c20f334409108d92f63963d1,
       type: 2}

@@ -5,12 +5,20 @@ using UnityEngine;
 
 public class MenuManager : MonoBehaviour
 {
-    public TextMeshProUGUI mainText;
+    public TMP_Text mainText;
     public GameObject clickButton;
     public GameObject closeButton;
     private int clickCount = 0;
+
+    public void Start()
+    {
+        closeButton.SetActive(false);
+    }
+
     public void OnClickButton()
     {
+        Debug.Log("Button is being clicked!... ClickCount=" + clickCount + (clickCount == 1));
+
         clickCount++;
 
         if (clickCount == 1)
