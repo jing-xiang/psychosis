@@ -144,8 +144,6 @@ PlayerSettings:
   - {fileID: 11400000, guid: 2780c1ddbb887234fb98015d75ab88a1, type: 2}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: -3173385750107931730, guid: 37244cba1c3814f44a7c2e485585ef6e, type: 2}
-  - {fileID: 11400000, guid: b1446f57c20f334409108d92f63963d1, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -166,7 +164,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.UnityTechnologies.com.unity.template.urpblank
+    Android: com.det.psychosis
     Standalone: com.Unity-Technologies.com.unity.template.urp-blank
     iPhone: com.Unity-Technologies.com.unity.template.urp-blank
   buildNumber:
