@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/darkforest.unity
     guid: d6aa79e27d8dcda408f9ecd347b25b36
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Test.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b1446f57c20f334409108d92f63963d1,
