@@ -164297,6 +164297,7 @@ GameObject:
   - component: {fileID: 1258773048}
   - component: {fileID: 1258773053}
   - component: {fileID: 1258773054}
+  - component: {fileID: 1258773055}
   m_Layer: 0
   m_Name: ISDK_HandGrabInteraction
   m_TagString: Untagged
@@ -164349,6 +164350,18 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1258773053}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1258773055}
+        m_TargetAssemblyTypeName: Oculus.Haptics.HapticSource, Oculus.Haptics
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -164574,6 +164587,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c4c1b38c49ffa449b585d54fcdc4a8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1258773055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258773046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9dc93c7e1ae142448d4a122be86ea8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clip: {fileID: 2460798210113038985, guid: ab47936e5b4c3763a3eb396bf1b632ea, type: 3}
+  _controller: 2
+  _loop: 0
+  _amplitude: 5
+  _frequencyShift: 0
+  _priority: 128
 --- !u!1 &1260798114
 GameObject:
   m_ObjectHideFlags: 0
@@ -165327,6 +165358,7 @@ GameObject:
   - component: {fileID: 1307609005}
   - component: {fileID: 1307609004}
   - component: {fileID: 1307609008}
+  - component: {fileID: 1307609009}
   m_Layer: 0
   m_Name: ISDK_HandGrabInteraction
   m_TagString: Untagged
@@ -165379,6 +165411,18 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1307609008}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1307609009}
+        m_TargetAssemblyTypeName: Oculus.Haptics.HapticSource, Oculus.Haptics
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -165604,6 +165648,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1307609009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307609002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9dc93c7e1ae142448d4a122be86ea8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clip: {fileID: 2460798210113038985, guid: ab47936e5b4c3763a3eb396bf1b632ea, type: 3}
+  _controller: 2
+  _loop: 0
+  _amplitude: 3.31
+  _frequencyShift: 0
+  _priority: 128
 --- !u!1001 &1310643054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -189461,6 +189523,7 @@ GameObject:
   - component: {fileID: 1930535195}
   - component: {fileID: 1930535193}
   - component: {fileID: 1930535198}
+  - component: {fileID: 1930535199}
   m_Layer: 0
   m_Name: ISDK_HandGrabInteraction
   m_TagString: Untagged
@@ -189561,6 +189624,18 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1930535198}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1930535199}
+        m_TargetAssemblyTypeName: Oculus.Haptics.HapticSource, Oculus.Haptics
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -189774,6 +189849,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1930535199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930535191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9dc93c7e1ae142448d4a122be86ea8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _clip: {fileID: 2460798210113038985, guid: ab47936e5b4c3763a3eb396bf1b632ea, type: 3}
+  _controller: 2
+  _loop: 0
+  _amplitude: 5
+  _frequencyShift: 0
+  _priority: 128
 --- !u!1 &1931836050
 GameObject:
   m_ObjectHideFlags: 0
