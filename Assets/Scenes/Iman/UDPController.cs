@@ -130,7 +130,7 @@ public class UDPController : MonoBehaviour
         lock (lockObject)
         {
             // Note: adjusting axes to match Unity's coordinate system
-            targetPosition = initialPosition + new Vector3(x, z, y) * sensitivity;
+            targetPosition = initialPosition + new Vector3(x, 0, y) * sensitivity;
         }
 
         // Apply smoothing if enabled
