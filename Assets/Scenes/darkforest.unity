@@ -5519,6 +5519,7 @@ GameObject:
   - component: {fileID: 284663425}
   - component: {fileID: 284663424}
   - component: {fileID: 284663427}
+  - component: {fileID: 284663428}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -5611,6 +5612,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 404e0388f349bec4cb95cedd7d96e703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ipAddress: 0.0.0.0
+  port: 8889
+  debugMode: 1
+  sensitivity: 5
+  useSmoothing: 1
+  smoothingFactor: 0.1
+--- !u!114 &284663428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284663423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0458df4d86efc194a95378b2a5e575da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ipAddress: 0.0.0.0
@@ -27882,7 +27901,7 @@ MonoBehaviour:
   requestBodyTrackingPermissionOnStartup: 0
   requestFaceTrackingPermissionOnStartup: 0
   requestEyeTrackingPermissionOnStartup: 0
-  requestScenePermissionOnStartup: 0
+  requestScenePermissionOnStartup: 1
   requestRecordAudioPermissionOnStartup: 0
   _localDimming: 1
   _trackingOriginType: 1
