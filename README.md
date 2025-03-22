@@ -43,8 +43,17 @@ The insights we gained from it showed us how little people understood about psyc
 Our target persona in this project is healthy users interested in understanding what it is like to live with psychosis. The project addresses them by showing how reality can become for people experiencing psychosis through environmental shifts. It also provides an impactful experience to the target user that encourages empathy and understanding for those living with psychotic disorders.
 
 <h3> User journey </h3>
-User starts in an every-day street environment. At a certain trigger, the environment shifts to a hallucination mode, and this switch between a familiar street scene and a distorted version where colors, lighting, and objects morph to reflect a hallucination. The visualization of how the user interacts with our project is 
+The user starts in a normal street environment. At a certain trigger, the environment shifts to a hallucination mode, and this switch between a familiar street scene and a distorted version where colors, lighting, and objects morph to reflect a hallucination. <br></br>
 
+The visualization of how the user interacts with our project is that when you start the app, you find yourself in a normal street environment with people, cars, and buildings around you. You can interact with things around you using handgrab interactions and distancegrab interactions. With these interactions, you can reach out and touch people. For example, you might touch a person which feels strange and unsettling. With distance grab, you can pull objects closer from far away, like grabbing another woman, and see that triggers a sudden change in the environment. Also grabbing a mysterious note.
+
+The app uses a scene loader script to switch between normal and hallucinated scenes. One moment, the street looks normal and the next, it becomes dark, distorted, and filled with strange sounds. When the sudden change becomes real, it helps you understand how confusing and unpredictable psychosis can be.
+
+To make the experience feel more real, the app uses haptic feedback, which makes the VR controllers vibrate when you touch something. For example, if you touch a person, the controllers vibrate, and this will make you feel confused when interacting with them. 
+
+Sound is also a big part of the experience. The app uses facial audio to create voices and sounds that seem to come from different directions. You might hear whispers in your ear when you touch a person, even though the person is not actually speaking. When hearing these sounds, it makes you feel paranoid and confused, just like someone with psychosis might feel.
+
+The app also uses light distortion scripts to change the lighting and colors in the environment. Shadows might stretch and colors become dark. When you feel these changes, it can make the world feel unstable and unreal, which continues the feeling of being in a hallucination.
 
 
 ## System description
