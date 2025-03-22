@@ -15,7 +15,7 @@ The proposed solution is valuable because it provides an immersive, interactive,
 
 The problem detected is that many people struggle to understand what it is like to live with hallucinations. When people understand the condition better, they’re more likely to be supportive and less judgmental. Feeling what it’s like to live with psychosis helps users connect with those who have the condition. The experience starts normal and slowly introduces distortions, so it’s not overwhelming. Users can interact with objects and people, triggering hallucinations and seeing how their actions affect the environment.
 
-## Design Process
+## Design process
 
 <img src="Psychosis_sketch.jpg" alt="{Your App XR} logo" width="600">
 
@@ -59,6 +59,8 @@ The app also uses light distortion scripts to change the lighting and colors in 
 
 ## Arduino R4 WiFi accelerometer for PSYCHOSIS VR
 
+<img src="Arduino.jpg" alt="{Your App XR} logo" width="600">
+
 ### What it does
 This project uses an **Arduino R4 WiFi** board and a **3-axis accelerometer** to control the **PSYCHOSIS VR** experience. When you move, the accelerometer detects your motion and sends it to Unity. This lets you trigger hallucinations and scene changes just by moving your body.
 
@@ -87,7 +89,7 @@ This project uses an **Arduino R4 WiFi** board and a **3-axis accelerometer** to
 - **Learn about Psychosis**: Helps you understand how people with psychosis might feel.
 - **Immersive and fun**: Makes the VR experience more realistic.
 
-## How to set it up
+### How to set it up
 1. Connect the accelerometer to the Arduino (pins A0, A1, A2).
 2. Upload the Arduino code to the board.
 3. Make sure the Arduino and Unity are on the same WiFi network.
