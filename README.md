@@ -21,7 +21,9 @@ When people understand the condition better, they’re more likely to be support
 
 <h3> Brainstorming </h3>
 
-We started by brainstorming ideas for the project that matched the topic educational experience for people with disabilities using immersive technologies and tangible interaction. We wanted to create something that is an educational experience for people with disabilities using immersive technologies and tangible interaction could show what hallucinations feel like in a way that’s both educational and immersive. The first thing we did was define the purpose. We asked ourselves, what do we want users to take away from this? The answer was simple: awareness and empathy. We wanted healthy users to step into the shoes of someone experiencing hallucinations and understand how disorienting and unsettling it can be. From there, the ideas started flowing.
+We started by brainstorming ideas for the project that matched the topic educational experience for people with disabilities using immersive technologies and tangible interaction. We wanted to create something that is an educational experience for people with disabilities using immersive technologies and tangible interaction could show what hallucinations feel like in a way that’s both educational and immersive. 
+
+The first thing we did was define the purpose. We asked ourselves, what do we want users to take away from this? The answer was simple: awareness and empathy. We wanted healthy users to step into the shoes of someone experiencing hallucinations and understand how disorienting and unsettling it can be. From there, the ideas started flowing.
 
 We imagined a bustling street scene, something familiar and relatable that could suddenly shift into a distorted, hallucinatory version. The idea was to create a stark contrast between reality and the altered perception of someone with psychosis. We talked about how the environment could morph, which were colors changing, objects shifting, and lighting becoming eerie. We also thought about adding auditory hallucinations and these were whispers, echoes, and distorted sounds, to heighten the sense of paranoia.
 
