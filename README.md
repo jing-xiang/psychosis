@@ -184,7 +184,7 @@ If you encounter any issues during installation:
 - If the build fails, check the **Unity console** for specific error messages.
 - Try **restarting Unity and/or your Quest** if experiencing connection issues.
 
-## Controls
+## Usage
 
 | Action | Quest controller input |
 |--------|------------------------|
