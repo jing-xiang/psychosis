@@ -31,7 +31,7 @@ Then came the interactions. We wanted users to feel like they were part of the e
 
 Teleportation was something we wanted to create because it was not about moving around. Instead, it was about making the user feel like reality was shifting, just like it does for someone experiencing hallucinations. That was the feeling we were going for. We thought about this movement because it fits with the theme of Psychosis. Since the experience is shifting realities and unpredictable changes, we believe that teleportation creates those sudden, jarring shifts in the environment. 
 
-We had to think about the technical side too. We discussed whether the user should feel their movements. We discussed haptic feedback and how the controllers could vibrate when the user touched someone or interacted with objects. We also considered heat feedback to intensify emotional responses in certain environments. We also made a timeline to stay organized, where we split the work into steps: research and prototyping, UX design, finishing the main features, testing, and then launching the final product. 
+We had to think about the technical side too. We discussed whether the user should feel their movements. We discussed haptic feedback and how the controllers could vibrate when the user touched someone or interacted with objects. We also made a timeline to stay organized, where we split the work into steps: research and prototyping, UX design, finishing the main features, testing, and then launching the final product. 
 
 ##  User research 
 
@@ -42,12 +42,12 @@ We also paid attention to how people talked about mental health in general, and 
 The insights we gained from it showed us how little people understood about psychosis and mental health, and that is why we wanted to make something that could help people feel what it’s like to experience hallucinations, but in a way that was easy to approach and not too overwhelming.
 
 ##  User persona 
-Our target persona in this project is healthy users interested in understanding what it is like to live with psychosis. The project addresses them by showing how reality can become for people experiencing psychosis through environmental shifts. It also provides an impactful experience to the target user that encourages empathy and understanding for those living with psychotic disorders.
+Our target persona in this project is healthy users interested in understanding what it is like to live with psychosis. The project addresses them by showing how reality can become for people experiencing psychosis through shifts in the environment. It also provides an impactful experience to the target user that encourages empathy and understanding for those living with psychotic disorders.
 
 ##  User journey 
 The user starts in a normal street environment. At a certain trigger, the environment shifts to a hallucination mode, and this switch between a familiar street scene and a distorted version where colors, lighting, and objects morph to reflect a hallucination.
 
-The visualization of how the user interacts with our project is that when you start the app, you find yourself in a normal street environment with people, cars, and buildings around you. You can interact with things around you using handgrab interactions and distancegrab interactions. With these interactions, you can reach out and touch people. For example, you might touch a person which feels strange and unsettling. With distance grab, you can pull objects closer from far away, like grabbing another woman, and see that triggers a sudden change in the environment. Also grabbing a mysterious note.
+The visualization of how the user interacts with our project is that when you start the VR experience, you find yourself in a normal street environment with people, cars, and buildings around you. You can interact with things around you using hand grab interactions and distance grab interactions. With these interactions, you can reach out and touch people. For example, you might touch a person which feels strange and unsettling. With distance grab, you can pull objects closer from far away, like grabbing another woman, and see that triggers a sudden change in the environment. Also grabbing a mysterious note.
 
 The app uses a scene loader script to switch between normal and hallucinated scenes. One moment, the street looks normal and the next, it becomes dark, distorted, and filled with strange sounds. When the sudden change becomes real, it helps you understand how confusing and unpredictable psychosis can be.
 
@@ -57,6 +57,15 @@ Sound is also a big part of the experience. The app uses facial audio to create 
 
 The app also uses light distortion scripts to change the lighting and colors in the environment. Shadows might stretch and colors become dark. When you feel these changes, it can make the world feel unstable and unreal, which continues the feeling of being in a hallucination.
 
+| **Interactions**          | **Details**                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| 👉 **Changing scenes**    | Normal street → gloomy → dark environment.                                 |
+| 👉 **Grab interactions**  | Interacts with npc → light distortion.                                     |
+| 👉 **Realistic sounds**   | Audio distortions → whispers → echoes.                                     |
+| 👉 **Haptic feedback**    | Player touches someone → vibrations effects → both controllers vibrate and create tangible interactions. |
+| 👉 **Physical interaction** | Player interacts with characters with handgrab.                          |
+| 👉 **Locomotion**         | Teleportation → from one place to another.                                 |
+
 ## Arduino R4 WiFi accelerometer for PSYCHOSIS VR
 
 <img src="Arduino.jpg" alt="{Your App XR} logo" width="600">
@@ -65,10 +74,10 @@ The app also uses light distortion scripts to change the lighting and colors in 
 This project uses an **Arduino R4 WiFi** board and a **3-axis accelerometer** to control the **PSYCHOSIS VR** experience. When you move, the accelerometer detects your motion and sends it to Unity. This lets you trigger hallucinations and scene changes just by moving your body.
 
 ### Key features
-- **Control with movement**: Use your body to trigger hallucinations and change scenes.
-- **Wireless connection**: Data is sent to Unity over WiFi using UDP.
-- **Tracking**: Motion data is sent 10 times per second for smooth control.
-- **Immersive experience**: Makes the VR world feel more real by connecting your movements to what happens in the game.
+- **Control with movement** - use your body to trigger hallucinations and change scenes.
+- **Wireless connection** - data is sent to Unity over WiFi using UDP.
+- **Tracking** - motion data is sent 10 times per second for smooth control.
+- **Immersive experience** - makes the VR world feel more real by connecting your movements to what happens in the game.
 
 ### What you need
 - **Arduino R4 WiFi board**
@@ -76,18 +85,18 @@ This project uses an **Arduino R4 WiFi** board and a **3-axis accelerometer** to
 - **WiFi connection**
 
 ### How it works
-1. **Connects to WiFi**: The Arduino connects to a WiFi network (e.g., "IMAN").
+1. **Connects to WiFi** - the Arduino connects to a WiFi network (e.g., "IMAN").
 2. **Sends motion data**:
-   - The accelerometer measures your movements.
-   - Data is sent to Unity over WiFi using UDP (port 8889).
+   - the accelerometer measures your movements.
+   - data is sent to Unity over WiFi using UDP (port 8889).
 3. **Triggers effects in VR**:
-   - Your movements can change the scene or start hallucinations.
-   - For example, shaking your hand might make the world look distorted.
+   - your movements can change the scene or start hallucinations.
+   - for example, shaking your hand might make the world look distorted.
 
 ### Why it’s cool
-- **Natural interaction**: You don’t need a controller, just move your body.
-- **Learn about Psychosis**: Helps you understand how people with psychosis might feel.
-- **Immersive and fun**: Makes the VR experience more realistic.
+- **Interaction** - you don’t need a controller, just move your body.
+- **Learn about Psychosis** - helps you understand how people with psychosis might feel.
+- **Immersive and fun** - makes the VR experience more realistic.
 
 ### How to set it up
 1. Connect the accelerometer to the Arduino (pins A0, A1, A2).
@@ -96,14 +105,11 @@ This project uses an **Arduino R4 WiFi** board and a **3-axis accelerometer** to
 4. Set the target IP address in the code to match your computer running Unity.
 
 ## Demo
-Check out the demo:
-👉 [Demonstration of Psychosis](https://drive.google.com/file/d/16F0zPpTUTJ5DUBSzTKhsxHvBVmde0y0U/view?usp=sharing/)
+👉 Check out the demo: [Demonstration of Psychosis](https://drive.google.com/file/d/16F0zPpTUTJ5DUBSzTKhsxHvBVmde0y0U/view?usp=sharing/)
 
-Check out the explanation:
-👉 [Explaination of Psychosis](https://drive.google.com/file/d/1dWQY6ncccpIiQTuaMwhC1kjkWqSbd0qy/view?usp=sharing/)
+👉 Check out the explanation: [Explaination of Psychosis](https://drive.google.com/file/d/1dWQY6ncccpIiQTuaMwhC1kjkWqSbd0qy/view?usp=sharing/)
 
-Check out the Extrality Lab website:
-👉 [Website](https://extralitylab.dsv.su.se//)
+👉 Check out the Extrality Lab website: [Website](https://extralitylab.dsv.su.se//)
 
 ## Installation
 
@@ -149,9 +155,6 @@ cd PSYCHOSIS
 3. In the **Android** tab, check the box for **Oculus**.
 4. In the **Windows/Standalone** tab, also check the box for **Oculus**.
 5. Navigate to **Edit > Project Settings > XR Plugin Management > Oculus**.
-6. Configure settings:
-   - Enable **"Stereo Rendering Mode"** to **"Multi Pass"** for better performance.
-   - Set appropriate **"Target Devices"** (Quest, Quest 2, etc.).
 
 ### Step 4: Configure build settings
 1. Go to **File > Build Settings**.
@@ -192,10 +195,6 @@ If you encounter any issues during installation:
 | Interact with objects | Use the grip buttons |
 | Explore the interactions | Use the trigger buttons |
 
-
-## References
-
-Acknowledge here the sources, references, or inspirations that you used for your project. Give credit to the original authors or creators of the materials that you used or adapted for your project (3D models, source code, audio effects, etc.)
 
 ## Contributors
 
