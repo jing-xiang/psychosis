@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Psychosis is a Virtual Reality (VR) experience that lets users step into the shoes of someone experiencing hallucinations and delusions. The goal is to help people understand what it’s like to live with psychotic disorders in an immersive and interactive way. The problem detected is that many people struggle to understand what it is like to live with hallucinations. 
+Psychosis is a Virtual Reality (VR) experience that lets users step into the shoes of someone experiencing hallucinations and delusions. The goal is to help people understand what it’s like to live with psychotic disorders in an immersive and interactive way. 
 
 
 This will raise awareness of the impact of living with hallucinations. Our solution is helpful because it lets users experience hallucinations in a safe, virtual way. When you are seing and feeling what it’s like, users can better understand psychosis. This encourages more supportive attitudes toward mental health. VR is great for this because it lets users feel like they’re really there. It’s much more powerful than just reading or watching videos about psychosis. This way, users can better understand what people with these conditions go through.
@@ -13,7 +13,7 @@ This will raise awareness of the impact of living with hallucinations. Our solut
 The proposed solution is valuable because it provides an immersive, interactive, and educational experience. It uses VR to create a 3D environment where users can explore and interact with the world as if they were experiencing psychosis themselves. VR makes you feel like you’re actually in the environment, which helps you understand the experience better. It is interactive because you can touch objects, hear voices, and see hallucinations, which makes the experience feel real. It is also a controlled environment, so users can explore without fear or risk.
 
 
-When people understand the condition better, they’re more likely to be supportive and less judgmental. Feeling what it’s like to live with psychosis helps users connect with those who have the condition. The experience starts normal and slowly introduces distortions, so it’s not overwhelming. Users can interact with objects and people, triggering hallucinations and seeing how their actions affect the environment.
+The problem detected is that many people struggle to understand what it is like to live with hallucinations. When people understand the condition better, they’re more likely to be supportive and less judgmental. Feeling what it’s like to live with psychosis helps users connect with those who have the condition. The experience starts normal and slowly introduces distortions, so it’s not overwhelming. Users can interact with objects and people, triggering hallucinations and seeing how their actions affect the environment.
 
 ## Design Process
 
