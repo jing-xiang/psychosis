@@ -55,7 +55,6 @@ Sound is also a big part of the experience. The app uses facial audio to create 
 
 The app also uses light distortion scripts to change the lighting and colors in the environment. Shadows might stretch and colors become dark. When you feel these changes, it can make the world feel unstable and unreal, which continues the feeling of being in a hallucination.
 
-
 ## System description
 
 ### Features
@@ -75,44 +74,89 @@ Link: <https://extralitylab.dsv.su.se/>
 
 ## Installation
 
-[_Installation process to build and run your project. Use code blocks, tables, or lists to show the commands, steps, or requirements the chosen platform. Mention any dependencies or libraries that your project uses and how to install them._]
+To install and run Psychosis on your platform or device, follow the instructions below:
 
-To install and run [Your app] on your platform or device, follow the instructions below:
+| Platform   | Device       | Requirements                                                                 | Commands                                                                                                                                                                                                 |
+|------------|--------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Windows** | Meta Quest   | Unity 2022.3.47.f1 (exact version required), Meta XR Plugin, Git, 8GB RAM, dedicated GPU | `git clone https://github.com/ImanDashtpeyma/PSYCHOSIS.git`<br>`cd PSYCHOSIS`<br>`Open in Unity Hub with version 2022.3.47.f1`<br>`Configure Meta XR Plugin`<br>`Build and Run for Windows/Standalone` |
+| **Android** | Phone   | Unity 2022.3.47.f1 (exact version required), Meta XR Plugin, Git, 8GB RAM, dedicated GPU, Developer Mode enabled on Quest | `git clone https://github.com/ImanDashtpeyma/PSYCHOSIS.git`<br>`cd PSYCHOSIS`<br>`Open in Unity Hub with version 2022.3.47.f1`<br>`Configure Meta XR Plugin`<br>`Switch platform to Android`<br>`Build and Run` |
 
-| Platform | Device | Requirements | Commands |
-| -------- | ------ | ------------ | -------- |
-| Windows  | Meta Quest   | Unity 2022.3 or higher, Arduino | `git clone https://github.com/user/repo.git`<br>`cd project-xr`<br>`open MainScene.unity`<br>`Build and Run` |
-| Android  | Phone  | Android 19 or higher, ARCore 1.18 or higher | `git clone https://github.com/user/repo.git`<br>`cd solar-system-xr`<br>`open SolarSystemXR.unity`<br>`switch platform to Android`<br>`build and run` |
+---
 
-You also need to install the following dependencies or libraries for your project:
+## Requirements
 
-- Library A - a Unity plugin for building VR and AR experiences
-- Library B - a C# wrapper for speech recognition and synthesis
-
-## Usage
-
-[_Usage section showing how to use your project and interact with its features. You can use examples, screenshots, gifs, or videos to demonstrate the user interface, controls, and feedback of your project. You can also provide tips, tricks, or best practices for using your project effectively._]
-
-To use [Your App XR} and interact with its features, follow the guidelines below:
-
-- To move around, use the touchpad or the joystick on your controller, or swipe on your phone screen.
-- To select ...a planet or a moon, point at it with your controller or your phone, or gaze at it with your headset.
-- To zoom in or out, use the trigger or the button on your controller, or pinch on your phone screen.
-- To access the information panel, press...
-- To use voice commands, say "OK" followed by one of the following phrases:
-  - "Show me [X]" - to show X element
-  - "Close window Y" - to close window Y
-  
-Some tips, tricks, and best practices for using [Your App XR} effectively:
-
-- Tip 1
-- Tip 2
+| Requirement           | Details |
+|----------------------|---------|
+| Unity Version       | **2022.3.47.f1** (exact version required) |
+| Device              | Meta Quest headset |
+| Plugin              | Meta XR Plugin for Unity |
+| Software           | Git installed on your computer |
+| Hardware            | Minimum **8GB RAM** and a **dedicated GPU** recommended |
 
 
-## References
+---
 
-Acknowledge here the sources, references, or inspirations that you used for your project. Give credit to the original authors or creators of the materials that you used or adapted for your project (3D models, source code, audio effects, etc.)
+## Installation Steps
 
-## Contributors
+### Step 1: Clone the Repository
+```sh
+git clone https://github.com/ImanDashtpeyma/PSYCHOSIS.git
+cd PSYCHOSIS
+```
 
-The authors of the project, contact information, and links to their websites or portfolios.
+### Step 2: Open in Unity
+1. Launch **Unity Hub**.
+2. Click **"Add"** and browse to the cloned `PSYCHOSIS` folder.
+3. Ensure Unity version **2022.3.47.f1** is selected when opening the project.
+4. Unity will automatically install required packages and dependencies.
+
+### Step 3: Configure Meta XR Plugin
+1. In Unity, go to **Edit > Project Settings > XR Plugin Management**.
+2. If not installed, click **Install XR Plugin Management**.
+3. In the **Android** tab, check the box for **Oculus**.
+4. In the **Windows/Standalone** tab, also check the box for **Oculus**.
+5. Navigate to **Edit > Project Settings > XR Plugin Management > Oculus**.
+6. Configure settings:
+   - Enable **"Stereo Rendering Mode"** to **"Multi Pass"** for better performance.
+   - Set appropriate **"Target Devices"** (Quest, Quest 2, etc.).
+
+### Step 4: Configure Build Settings
+1. Go to **File > Build Settings**.
+2. Select the target platform:
+   - **For direct headset play:** Select **Android**.
+   - **For PC-connected play:** Select **Windows, Mac, Linux**.
+3. Click **Switch Platform** if not already set.
+4. **For Android builds:**
+   - Set **Texture Compression** to **ASTC**.
+   - Set **Minimum API level** to **Android 10.0 (API level 29)** or higher.
+
+### Step 5: Build and Run
+1. Connect your **Meta Quest headset** to your computer via USB.
+2. Enable **Developer Mode** on your Quest if not already enabled.
+3. In Unity, click **Build and Run**.
+4. Follow on-screen prompts to complete the build process.
+
+## Experiencing PSYCHOSIS
+
+Once installed on your Meta Quest, you'll enter an immersive VR environment to simulate psychosis. The experience begins in a **normal street environment** and gradually introduces **hallucinations** and **delusions** triggered by interactions. Use your Quest controllers to navigate and interact with the environment.
+
+## Troubleshooting
+
+If you encounter any issues during installation:
+
+- Ensure you're using **Unity version 2022.3.47.f1**.
+- Verify that **Meta XR Plugin** is properly installed and configured.
+- Make sure your **Meta Quest headset** is in **Developer Mode**.
+- Check that **USB debugging** is enabled on your Quest.
+- If the build fails, check the **Unity console** for specific error messages.
+- Try **restarting Unity and/or your Quest** if experiencing connection issues.
+
+## Controls
+
+| Action | Quest controller input |
+|--------|------------------------|
+| Move around | Use the joysticks |
+| Interact with objects | Use the grip buttons |
+| Explore the interactions | Use the trigger buttons |
+
+
