@@ -45,7 +45,7 @@ The insights we gained from it showed us how little people understood about psyc
 Our target persona in this project is healthy users interested in understanding what it is like to live with psychosis. The project addresses them by showing how reality can become for people experiencing psychosis through environmental shifts. It also provides an impactful experience to the target user that encourages empathy and understanding for those living with psychotic disorders.
 
 ##  User journey 
-The user starts in a normal street environment. At a certain trigger, the environment shifts to a hallucination mode, and this switch between a familiar street scene and a distorted version where colors, lighting, and objects morph to reflect a hallucination. <br></br>
+The user starts in a normal street environment. At a certain trigger, the environment shifts to a hallucination mode, and this switch between a familiar street scene and a distorted version where colors, lighting, and objects morph to reflect a hallucination.
 
 The visualization of how the user interacts with our project is that when you start the app, you find yourself in a normal street environment with people, cars, and buildings around you. You can interact with things around you using handgrab interactions and distancegrab interactions. With these interactions, you can reach out and touch people. For example, you might touch a person which feels strange and unsettling. With distance grab, you can pull objects closer from far away, like grabbing another woman, and see that triggers a sudden change in the environment. Also grabbing a mysterious note.
 
