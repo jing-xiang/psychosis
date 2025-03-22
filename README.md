@@ -17,10 +17,7 @@
 
 ## Design Process
 
-[_Add evidence on the general overview of how you planned, designed, and developed your project, including the goals, challenges, and solutions._]
-
-For example:
-- Brainstorming: We started by brainstorming ideas for the project that matched the topic educational experience for people with disabilities using immersive technologies and tangible interaction. We wanted to create something that is an educational experience for people with disabilities using immersive technologies and tangible interaction could show what hallucinations feel like in a way that’s both educational and immersive. The first thing we did was define the purpose. We asked ourselves, What do we want users to take away from this? The answer was simple: awareness and empathy. We wanted healthy users to step into the shoes of someone experiencing hallucinations and understand how disorienting and unsettling it can be. From there, the ideas started flowing.
+- Brainstorming: We started by brainstorming ideas for the project that matched the topic educational experience for people with disabilities using immersive technologies and tangible interaction. We wanted to create something that is an educational experience for people with disabilities using immersive technologies and tangible interaction could show what hallucinations feel like in a way that’s both educational and immersive. The first thing we did was define the purpose. We asked ourselves, what do we want users to take away from this? The answer was simple: awareness and empathy. We wanted healthy users to step into the shoes of someone experiencing hallucinations and understand how disorienting and unsettling it can be. From there, the ideas started flowing.
 
 
 - User Research: Pictures and summary of how you conducted user research, such as surveys, interviews, or observations, and what insights you gained from it.
