@@ -31,7 +31,7 @@ Then came the interactions. We wanted users to feel like they were part of the e
 
 Teleportation was something we wanted to create because it was not about moving around. Instead, it was about making the user feel like reality was shifting, just like it does for someone experiencing hallucinations. That was the feeling we were going for. We thought about this movement because it fits with the theme of Psychosis. Since the experience is shifting realities and unpredictable changes, we believe that teleportation creates those sudden, jarring shifts in the environment. 
 
-We had to think about the technical side too. We discussed whether the user should feel their movements. We discussed haptic feedback and how the controllers could vibrate when the user touched someone or interacted with objects. We also made a timeline to stay organized, where we split the work into steps: research and prototyping, UX design, finishing the main features, testing, and then launching the final product. 
+We had to think about the technical side too. We discussed whether the user should feel their movements. We discussed haptic feedback and how the controllers could vibrate when the user touched someone or interacted with objects. We also made a timeline to stay organized, where we split the work into steps: research and prototyping, UX design, finishing the main features and interactions, testing, and then launching the final product. 
 
 ##  User research 
 
