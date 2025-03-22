@@ -15,20 +15,14 @@
 
 <h4> When people understand the condition better, they’re more likely to be supportive and less judgmental. Feeling what it’s like to live with psychosis helps users connect with those who have the condition. The experience starts normal and slowly introduces distortions, so it’s not overwhelming. Users can interact with objects and people, triggering hallucinations and seeing how their actions affect the environment. <h4>
 
-## Introduction
-
-[Project XR ] is an educational XR experience that lets you explore in 3D [...] . Learn about [...].
-
-The problem detected was...
-
-The proposed solution is valuable because...
-
 ## Design Process
 
 [_Add evidence on the general overview of how you planned, designed, and developed your project, including the goals, challenges, and solutions._]
 
 For example:
-- Brainstorming: A screenshot of the whiteboard or post-it notes used to land the project's idea.
+- Brainstorming: We started by brainstorming ideas for the project that matched the topic educational experience for people with disabilities using immersive technologies and tangible interaction. We wanted to create something that is an educational experience for people with disabilities using immersive technologies and tangible interaction could show what hallucinations feel like in a way that’s both educational and immersive. The first thing we did was define the purpose. We asked ourselves, What do we want users to take away from this? The answer was simple: awareness and empathy. We wanted healthy users to step into the shoes of someone experiencing hallucinations and understand how disorienting and unsettling it can be. From there, the ideas started flowing.
+
+
 - User Research: Pictures and summary of how you conducted user research, such as surveys, interviews, or observations, and what insights you gained from it.
 - User Persona: A description of your target user, their needs, motivations, and pain points, and how your project addresses them.
 - User Journey: A visualization of how your user interacts with your project, from the initial trigger to the final outcome, and what emotions they experience along the way.
