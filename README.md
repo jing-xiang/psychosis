@@ -107,7 +107,7 @@ This project uses an **Arduino R4 WiFi** board and a **3-axis accelerometer** to
 ## Demo
 👉 Check out the demo: [Demonstration of Psychosis](https://drive.google.com/file/d/16F0zPpTUTJ5DUBSzTKhsxHvBVmde0y0U/view?usp=sharing/)
 
-👉 Check out the explanation: [Explaination of Psychosis](https://drive.google.com/file/d/1dWQY6ncccpIiQTuaMwhC1kjkWqSbd0qy/view?usp=sharing/)
+👉 Check out the video portfolio: [Portfolio of Psychosis](https://drive.google.com/file/d/1dWQY6ncccpIiQTuaMwhC1kjkWqSbd0qy/view?usp=sharing/)
 
 👉 Check out the Extrality Lab website: [Website](https://extralitylab.dsv.su.se/project/det/)
 
