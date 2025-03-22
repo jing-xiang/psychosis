@@ -17,11 +17,15 @@
 
 ## Design Process
 
-<img src="Psychosis_sketch.jpg" alt="{Your App XR} logo" width="550">
+<img src="Psychosis_sketch.jpg" alt="{Your App XR} logo" width="600">
 
 - Brainstorming: We started by brainstorming ideas for the project that matched the topic educational experience for people with disabilities using immersive technologies and tangible interaction. We wanted to create something that is an educational experience for people with disabilities using immersive technologies and tangible interaction could show what hallucinations feel like in a way that’s both educational and immersive. The first thing we did was define the purpose. We asked ourselves, what do we want users to take away from this? The answer was simple: awareness and empathy. We wanted healthy users to step into the shoes of someone experiencing hallucinations and understand how disorienting and unsettling it can be. From there, the ideas started flowing.
 
-We imagined a bustling street scene, something familiar and relatable that could suddenly shift into a distorted, hallucinatory version. The idea was to create a stark contrast between reality and the altered perception of someone with psychosis. We talked about how the environment could morph, which are colors changing, objects shifting, and lighting becoming eerie. We even thought about adding auditory hallucinations and these are whispers, echoes, and distorted sounds, to heighten the sense of paranoia.
+We imagined a bustling street scene, something familiar and relatable that could suddenly shift into a distorted, hallucinatory version. The idea was to create a stark contrast between reality and the altered perception of someone with psychosis. We talked about how the environment could morph, which were colors changing, objects shifting, and lighting becoming eerie. We also thought about adding auditory hallucinations and these were whispers, echoes, and distorted sounds, to heighten the sense of paranoia.
+
+Then came the interactions. We wanted users to feel like they were part of the experience, not just passive observers. We brainstormed ways they could interact with the environment. For example, touching people and hearing whispers around them, picking up objects like a mysterious note, and triggering hallucinations through these actions. We also discussed how movement could be imported. Teleportation stood out because it fits with the theme of Psychosis. Since the experience is shifting realities and unpredictable changes, teleportation creates those sudden, jarring shifts in the environment. 
+
+Teleportation was something that we wanted to create. It wasn't just about moving around; it was about making the user feel like reality was shifting, just like it does for someone experiencing hallucinations. That was the feeling we were going for. We had to think about the technical side too. We discussed whether to use how the user should control their movements. We discussed haptic feedback and how the controllers could vibrate when the user touched someone or interacted with objects. We also considered heat feedback to intensify emotional responses in certain environments. We also made a timeline to stay organized. We split the work into steps: research and prototyping, UX design, finishing the main features, testing, and then launching the final product. 
 
 
 - User Research: Pictures and summary of how you conducted user research, such as surveys, interviews, or observations, and what insights you gained from it.
