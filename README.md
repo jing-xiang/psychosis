@@ -120,7 +120,7 @@ cd PSYCHOSIS
    - Enable **"Stereo Rendering Mode"** to **"Multi Pass"** for better performance.
    - Set appropriate **"Target Devices"** (Quest, Quest 2, etc.).
 
-### Step 4: Configure Build Settings
+### Step 4: Configure build settings
 1. Go to **File > Build Settings**.
 2. Select the target platform:
    - **For direct headset play:** Select **Android**.
@@ -130,7 +130,7 @@ cd PSYCHOSIS
    - Set **Texture Compression** to **ASTC**.
    - Set **Minimum API level** to **Android 10.0 (API level 29)** or higher.
 
-### Step 5: Build and Run
+### Step 5: Build and run
 1. Connect your **Meta Quest headset** to your computer via USB.
 2. Enable **Developer Mode** on your Quest if not already enabled.
 3. In Unity, click **Build and Run**.
