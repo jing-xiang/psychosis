@@ -31,6 +31,13 @@ Teleportation was something we wanted to create because it was not about moving 
 
 We had to think about the technical side too. We discussed whether the user should feel their movements. We discussed haptic feedback and how the controllers could vibrate when the user touched someone or interacted with objects. We also considered heat feedback to intensify emotional responses in certain environments. We also made a timeline to stay organized, where we split the work into steps: research and prototyping, UX design, finishing the main features, testing, and then launching the final product. 
 
+<h3> User research </h3>
+
+The user research began with observations around us. We asked ourselves, do people actually know how it feels to experience psychosis? What we noticed was eye-opening. Many people didn’t really understand what it’s like to live with psychosis or experience hallucinations. Some had misconceptions, thinking it was just "seeing things" or "hearing voices" in a simple way. Others were curious but didn’t know much about it, and they were saying things like "I’ve heard about it, but I don’t really get what it’s like".
+
+We also paid attention to how people talked about mental health in general.
+
+------------------------
 
 - User Research: Pictures and summary of how you conducted user research, such as surveys, interviews, or observations, and what insights you gained from it.
 - User Persona: A description of your target user, their needs, motivations, and pain points, and how your project addresses them.
