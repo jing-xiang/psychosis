@@ -162,3 +162,22 @@ If you encounter any issues during installation:
 | Explore the interactions | Use the trigger buttons |
 
 
+## References
+
+Acknowledge here the sources, references, or inspirations that you used for your project. Give credit to the original authors or creators of the materials that you used or adapted for your project (3D models, source code, audio effects, etc.)
+
+## Contributors
+
+Here are the authors of the project, contact information, and links to their GitHub.
+
+| Name                | Email                     | GitHub       |
+|---------------------|---------------------------|--------------|
+| Alexandros Dianellos | alexisdianellos@gmail.com | [GitHub](https://github.com/Vickisen) |
+| Iman Dashtpeyma     | iman.dashtpeyma@gmail.com | [GitHub](https://github.com/ImanDashtpeyma) |
+| Jing Xiang Chew     | chewjingxiangjumps@gmail.com | [GitHub](https://github.com/jing-xiang) |
+| Victoria Kazem      | victoria.kazems@gmail.com | [GitHub](https://github.com/AlexisDianellos) |
+
+
+
+
+
