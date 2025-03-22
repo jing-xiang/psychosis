@@ -91,7 +91,7 @@ This project uses an **Arduino R4 WiFi** board and a **3-axis accelerometer** to
    - data is sent to Unity over WiFi using UDP (port 8889).
 3. **Triggers effects in VR**:
    - your movements can change the scene or start hallucinations.
-   - for example, shaking your hand might make the world look distorted.
+   - for example, shaking your body might make the world look distorted.
 
 ### Why it’s cool
 - **Interaction** - you don’t need a controller, just move your body.
