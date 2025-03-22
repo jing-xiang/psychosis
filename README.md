@@ -35,14 +35,16 @@ We had to think about the technical side too. We discussed whether the user shou
 
 The user research began with observations around us. We asked ourselves, do people actually know how it feels to experience psychosis? What we noticed was eye-opening. Many people didn’t really understand what it’s like to live with psychosis or experience hallucinations. Some had misconceptions, thinking it was just "seeing things" or "hearing voices" in a simple way. Others were curious but didn’t know much about it, and they were saying things like "I’ve heard about it, but I don’t really get what it’s like".
 
-We also paid attention to how people talked about mental health in general.
+We also paid attention to how people talked about mental health in general, and we noticed that when people talked about mental health, they often used simple or unclear terms. For example, some thought hallucinations were just "seeing things," without understanding how emotional they could be. Others had heard of psychosis but didn’t realize how much it could change someone’s sense of reality. 
 
-------------------------
+The insights we gained from it showed us how little people understood about psychosis and mental health, and that is why we wanted to make something that could help people feel what it’s like to experience hallucinations, but in a way that was easy to approach and not too overwhelming.
 
-- User Research: Pictures and summary of how you conducted user research, such as surveys, interviews, or observations, and what insights you gained from it.
-- User Persona: A description of your target user, their needs, motivations, and pain points, and how your project addresses them.
-- User Journey: A visualization of how your user interacts with your project, from the initial trigger to the final outcome, and what emotions they experience along the way.
-- Wireframes and Prototypes: A collection of sketches, mockups, or prototypes that show the layout, structure, and functionality of your project, and how you tested and iterated on them.
+<h3> User persona </h3>
+Our target persona in this project is healthy users interested in understanding what it is like to live with psychosis. The project addresses them by showing how reality can become for people experiencing psychosis through environmental shifts. It also provides an impactful experience to the target user that encourages empathy and understanding for those living with psychotic disorders.
+
+<h3> User journey </h3>
+User starts in an every-day street environment. At a certain trigger, the environment shifts to a hallucination mode, and this switch between a familiar street scene and a distorted version where colors, lighting, and objects morph to reflect a hallucination. The visualization of how the user interacts with our project is 
+
 
 
 ## System description
