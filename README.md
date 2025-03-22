@@ -19,7 +19,7 @@ The problem detected is that many people struggle to understand what it is like 
 
 <img src="Psychosis_sketch.jpg" alt="{Your App XR} logo" width="600">
 
-<h3> Brainstorming </h3>
+## Brainstorming 
 
 We started by brainstorming ideas for the project that matched the topic educational experience for people with disabilities using immersive technologies and tangible interaction. We wanted to create something that is an educational experience for people with disabilities using immersive technologies and tangible interaction could show what hallucinations feel like in a way that’s both educational and immersive. 
 
@@ -33,7 +33,7 @@ Teleportation was something we wanted to create because it was not about moving 
 
 We had to think about the technical side too. We discussed whether the user should feel their movements. We discussed haptic feedback and how the controllers could vibrate when the user touched someone or interacted with objects. We also considered heat feedback to intensify emotional responses in certain environments. We also made a timeline to stay organized, where we split the work into steps: research and prototyping, UX design, finishing the main features, testing, and then launching the final product. 
 
-<h3> User research </h3>
+##  User research 
 
 The user research began with observations around us. We asked ourselves, do people actually know how it feels to experience psychosis? What we noticed was eye-opening. Many people didn’t really understand what it’s like to live with psychosis or experience hallucinations. Some had misconceptions, thinking it was just "seeing things" or "hearing voices" in a simple way. Others were curious but didn’t know much about it, and they were saying things like "I’ve heard about it, but I don’t really get what it’s like".
 
@@ -41,10 +41,10 @@ We also paid attention to how people talked about mental health in general, and 
 
 The insights we gained from it showed us how little people understood about psychosis and mental health, and that is why we wanted to make something that could help people feel what it’s like to experience hallucinations, but in a way that was easy to approach and not too overwhelming.
 
-<h3> User persona </h3>
+##  User persona 
 Our target persona in this project is healthy users interested in understanding what it is like to live with psychosis. The project addresses them by showing how reality can become for people experiencing psychosis through environmental shifts. It also provides an impactful experience to the target user that encourages empathy and understanding for those living with psychotic disorders.
 
-<h3> User journey </h3>
+##  User journey 
 The user starts in a normal street environment. At a certain trigger, the environment shifts to a hallucination mode, and this switch between a familiar street scene and a distorted version where colors, lighting, and objects morph to reflect a hallucination. <br></br>
 
 The visualization of how the user interacts with our project is that when you start the app, you find yourself in a normal street environment with people, cars, and buildings around you. You can interact with things around you using handgrab interactions and distancegrab interactions. With these interactions, you can reach out and touch people. For example, you might touch a person which feels strange and unsettling. With distance grab, you can pull objects closer from far away, like grabbing another woman, and see that triggers a sudden change in the environment. Also grabbing a mysterious note.
@@ -57,22 +57,51 @@ Sound is also a big part of the experience. The app uses facial audio to create 
 
 The app also uses light distortion scripts to change the lighting and colors in the environment. Shadows might stretch and colors become dark. When you feel these changes, it can make the world feel unstable and unreal, which continues the feeling of being in a hallucination.
 
-## System description
+## Arduino R4 WiFi accelerometer for PSYCHOSIS VR
 
-### Features
+### What it does
+This project uses an **Arduino R4 WiFi** board and a **3-axis accelerometer** to control the **PSYCHOSIS VR** experience. When you move, the accelerometer detects your motion and sends it to Unity. This lets you trigger hallucinations and scene changes just by moving your body.
 
-[_Features and functionalities of your project. You can use bullet points, screenshots, gifs, or videos to illustrate your points. Also include a link to a demo or a live version of your project._]
+### Key features
+- **Control with movement**: Use your body to trigger hallucinations and change scenes.
+- **Wireless connection**: Data is sent to Unity over WiFi using UDP.
+- **Tracking**: Motion data is sent 10 times per second for smooth control.
+- **Immersive experience**: Makes the VR world feel more real by connecting your movements to what happens in the game.
 
-For example:
+### What you need
+- **Arduino R4 WiFi board**
+- **3-axis accelerometer** (connected to pins A0, A1, and A2)
+- **WiFi connection**
 
-- Immersive and realistic 3D models of [...]
-- Interactive and intuitive controls using hand gestures and voice commands
-- Customizable settings and preferences for the user experience
-- Compatible with various XR platforms and devices
+### How it works
+1. **Connects to WiFi**: The Arduino connects to a WiFi network (e.g., "IMAN").
+2. **Sends motion data**:
+   - The accelerometer measures your movements.
+   - Data is sent to Unity over WiFi using UDP (port 8889).
+3. **Triggers effects in VR**:
+   - Your movements can change the scene or start hallucinations.
+   - For example, shaking your hand might make the world look distorted.
 
-Watch the demo video or try the live version.
+### Why it’s cool
+- **Natural interaction**: You don’t need a controller, just move your body.
+- **Learn about Psychosis**: Helps you understand how people with psychosis might feel.
+- **Immersive and fun**: Makes the VR experience more realistic.
 
-Link: <https://extralitylab.dsv.su.se/>
+## How to set it up
+1. Connect the accelerometer to the Arduino (pins A0, A1, A2).
+2. Upload the Arduino code to the board.
+3. Make sure the Arduino and Unity are on the same WiFi network.
+4. Set the target IP address in the code to match your computer running Unity.
+
+## Demo
+Check out the demo:
+👉 [Demonstration of Psychosis](https://drive.google.com/file/d/16F0zPpTUTJ5DUBSzTKhsxHvBVmde0y0U/view?usp=sharing/)
+
+Check out the explanation:
+👉 [Explaination of Psychosis](https://drive.google.com/file/d/1dWQY6ncccpIiQTuaMwhC1kjkWqSbd0qy/view?usp=sharing/)
+
+Check out the Extrality Lab website:
+👉 [Website](https://extralitylab.dsv.su.se//)
 
 ## Installation
 
@@ -98,9 +127,9 @@ To install and run Psychosis on your platform or device, follow the instructions
 
 ---
 
-## Installation Steps
+## Installation steps
 
-### Step 1: Clone the Repository
+### Step 1: Clone the repository
 ```sh
 git clone https://github.com/ImanDashtpeyma/PSYCHOSIS.git
 cd PSYCHOSIS
