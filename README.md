@@ -139,7 +139,7 @@ To install and run Psychosis on your platform or device, follow the instructions
 
 ### Step 1: Clone the repository
 ```sh
-git clone https://github.com/ImanDashtpeyma/PSYCHOSIS.git
+git clone https://github.com/jing-xiang/psychosis.git
 cd PSYCHOSIS
 ```
 
